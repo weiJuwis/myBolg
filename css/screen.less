@@ -1,0 +1,76 @@
+.header{
+	background-image: url(../images/head_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size:cover;
+	height: 220px;
+	width: 100%;
+	padding-top: 62px;
+	h1{
+		font-size: 20px;
+		color: #fff;
+	}
+}
+
+.main-nav{
+	background: #ffffff;
+	
+	border-bottom: 1px solid #e1e1e1;
+	.collapse {
+		
+	
+	
+	}
+	.navbar{
+		margin: 0;
+		& .navbar-header{
+			text-align: center;
+			.navbar-toggle{
+				float: none;
+			}
+		}	
+	}
+	.navbar-nav{
+		float: none;
+		text-align: center;
+		margin: 0;
+		li{
+
+			display: inline-block;
+			float: none;
+			&.active{
+				border-bottom: 2px solid #e67e22;
+				margin-bottom: -2px;
+			}
+			&:hover,&:active,&:link,&:visited,&:focus{
+				background: none;
+			}
+			&:hover a,&:active a,&:link a,&:visited a,&:focus a{
+				color: #e67e22;
+				background: none;
+			}
+			a{
+				color: #505050;
+				font-size:14px;
+				padding: 0 20px;
+				display: block;
+					height: 50px;
+				line-height: 50px;
+				&:hover,&:active,&:link,&:visited,&:focus{				
+					background: none;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 767px){
+	.main-nav{
+		.navbar-nav{
+			li{
+				display: block;
+				text-align: left;
+			}
+		}
+	}
+}

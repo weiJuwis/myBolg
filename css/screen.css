@@ -1,0 +1,75 @@
+.header {
+  background-image: url(../images/head_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  height: 220px;
+  width: 100%;
+  padding-top: 62px;
+}
+.header h1 {
+  font-size: 20px;
+  color: #fff;
+}
+.main-nav {
+  background: #ffffff;
+  border-bottom: 1px solid #e1e1e1;
+}
+.main-nav .navbar {
+  margin: 0;
+}
+.main-nav .navbar .navbar-header {
+  text-align: center;
+}
+.main-nav .navbar .navbar-header .navbar-toggle {
+  float: none;
+}
+.main-nav .navbar-nav {
+  float: none;
+  text-align: center;
+  margin: 0;
+}
+.main-nav .navbar-nav li {
+  display: inline-block;
+  float: none;
+}
+.main-nav .navbar-nav li.active {
+  border-bottom: 2px solid #e67e22;
+  margin-bottom: -2px;
+}
+.main-nav .navbar-nav li:hover,
+.main-nav .navbar-nav li:active,
+.main-nav .navbar-nav li:link,
+.main-nav .navbar-nav li:visited,
+.main-nav .navbar-nav li:focus {
+  background: none;
+}
+.main-nav .navbar-nav li:hover a,
+.main-nav .navbar-nav li:active a,
+.main-nav .navbar-nav li:link a,
+.main-nav .navbar-nav li:visited a,
+.main-nav .navbar-nav li:focus a {
+  color: #e67e22;
+  background: none;
+}
+.main-nav .navbar-nav li a {
+  color: #505050;
+  font-size: 14px;
+  padding: 0 20px;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+}
+.main-nav .navbar-nav li a:hover,
+.main-nav .navbar-nav li a:active,
+.main-nav .navbar-nav li a:link,
+.main-nav .navbar-nav li a:visited,
+.main-nav .navbar-nav li a:focus {
+  background: none;
+}
+@media (max-width: 767px) {
+  .main-nav .navbar-nav li {
+    display: block;
+    text-align: left;
+  }
+}
