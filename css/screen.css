@@ -11,6 +11,7 @@
   font-size: 20px;
   color: #fff;
 }
+/* main-nav */
 .main-nav {
   background: #ffffff;
   border-bottom: 1px solid #e1e1e1;
@@ -67,9 +68,111 @@
 .main-nav .navbar-nav li a:focus {
   background: none;
 }
+/* main-nav */
+/* .main-cont */
+.main-cont {
+  background: #ebebeb;
+  padding-top: 35px;
+  /* left-main */
+  /* left-main */
+  /* right-main */
+  /* right-main */
+}
+.main-cont .left-main {
+  margin-bottom: 30px;
+}
+.main-cont .left-main li {
+  background: #fff;
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+.main-cont .left-main h1 {
+  font-size: 33px;
+  color: #303030;
+  padding: 33px 0 15px 0;
+}
+.main-cont .left-main .author {
+  color: #959595;
+  font-size: 14px;
+  padding-bottom: 35px;
+}
+.main-cont .left-main .author em {
+  color: #e67e22;
+}
+.main-cont .left-main .article {
+  text-align: left;
+  border-bottom: 1px solid #ebebeb;
+}
+.main-cont .left-main .article p {
+  font-size: 20px;
+  color: #444443;
+  line-height: 40px;
+  text-indent: 2em;
+  padding-bottom: 35px;
+}
+.main-cont .left-main .article a.btn {
+  margin-bottom: 30px;
+}
+.main-cont .left-main .subTitle {
+  text-align: left;
+  color: #c0a2a2;
+  padding: 30px 0;
+  font-size: 14px;
+}
+.main-cont .left-main .subTitle em {
+  padding: 0 10px;
+}
+.main-cont .right-main .right-block {
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 17px 25px 0;
+  /* community */
+  /* community */
+}
+.main-cont .right-main .right-block h1.title {
+  width: 100%;
+  font-size: 22px;
+  color: #303030;
+  border-bottom: 1px solid #ebebeb;
+  float: left;
+}
+.main-cont .right-main .right-block h1.title p {
+  line-height: 40px;
+  float: left;
+  border-bottom: 1px solid #e67e22;
+  width: 100px;
+}
+.main-cont .right-main .right-block.community .info {
+  padding: 20px 0px;
+  color: #975076;
+  font-size: 16px;
+  float: left;
+}
+.main-cont .right-main .right-block.community .info p {
+  padding-bottom: 20px;
+  float: left;
+}
+.main-cont .right-main .right-block.community .info span.answer a {
+  padding-bottom: 20px;
+  width: 100%;
+  float: left;
+  color: #e97e22;
+}
+.main-cont .right-main .right-block.community .info span.answer a i {
+  padding-right: 10px;
+}
+.main-cont .right-main .right-block.download .info {
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+}
+/* .main-cont */
 @media (max-width: 767px) {
   .main-nav .navbar-nav li {
     display: block;
     text-align: left;
+  }
+  .main-cont .left-main {
+    margin-bottom: 0;
   }
 }
