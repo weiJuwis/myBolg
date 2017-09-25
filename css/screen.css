@@ -99,7 +99,7 @@
 }
 .main-cont .left-main .author {
   color: #959595;
-  font-size: 14px;
+  font-size: 1.2em;
   padding-bottom: 35px;
 }
 .main-cont .left-main .author em {
@@ -110,7 +110,7 @@
   border-bottom: 1px solid #ebebeb;
 }
 .main-cont .left-main .article p {
-  font-size: 20px;
+  font-size: 1.5em;
   color: #444443;
   line-height: 40px;
   text-indent: 2em;
